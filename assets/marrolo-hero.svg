@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Marrolo editorial fashion hero image</title>
+  <desc id="desc">Abstract fashion editorial scene with models, garments, red and blue accents, and studio lighting.</desc>
+  <rect width="1600" height="1000" fill="#ffffff"/>
+  <path d="M0 792h1600v208H0z" fill="#101010"/>
+  <path d="M1040 0h560v1000h-560z" fill="#e8ebf2"/>
+  <circle cx="1315" cy="266" r="172" fill="#c9ced6"/>
+  <path d="M970 122c216 30 397 222 430 454 21 148-18 287-82 424h282V0H970z" fill="#c9a227"/>
+  <path d="M1135 250l236 562h-316l-88-260z" fill="#101010"/>
+  <path d="M1167 267l86 544h-88l-41-315z" fill="#d71920"/>
+  <path d="M1248 282l122 530h-74l-102-439z" fill="#0057ff"/>
+  <path d="M1106 198c35-48 116-48 151 1 32 44 22 107-22 139-39 28-94 24-129-9-36-34-36-91 0-131z" fill="#191817"/>
+  <path d="M1185 333c-73 58-147 66-221 25 49 146 70 293 63 440h131c20-151 29-306 27-465z" fill="#2c2a28"/>
+  <path d="M1206 333c36 158 94 313 174 465h117c-84-171-153-338-205-501-22 18-51 30-86 36z" fill="#171717"/>
+  <path d="M376 198c67-30 141-4 171 60 29 62 3 134-59 164-63 30-137 3-166-59-30-64-6-135 54-165z" fill="#111"/>
+  <path d="M252 391c144-101 271-99 381 6-50 150-77 286-80 410H252z" fill="#101010"/>
+  <path d="M389 414c-41 102-72 229-91 382h105c19-142 44-262 75-360z" fill="#d71920"/>
+  <path d="M543 408c36 119 82 249 139 390h97c-66-163-128-301-187-414z" fill="#ffd400"/>
+  <path d="M764 286h92v512h-92z" fill="#0057ff"/>
+  <path d="M831 232c65 79 108 175 130 288l-99 28c-14-115-52-210-112-286z" fill="#101010"/>
+  <path d="M715 257c-66 74-107 172-122 294l-98-31c22-117 66-215 132-294z" fill="#101010"/>
+  <path d="M285 805h1215v32H285z" fill="#ffffff"/>
+  <text x="70" y="922" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="8">MARROLO / ORIGINAL CLOTHING DESIGN</text>
+  <path d="M70 100h558v10H70z" fill="#101010"/>
+  <path d="M70 132h410v10H70z" fill="#d71920"/>
+  <path d="M70 164h315v10H70z" fill="#0057ff"/>
+</svg>

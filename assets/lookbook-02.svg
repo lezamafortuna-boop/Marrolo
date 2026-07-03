@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 900" role="img" aria-labelledby="title desc">
+  <title id="title">Blue Form lookbook</title>
+  <desc id="desc">Electric blue tailoring with metallic details.</desc>
+  <rect width="760" height="900" fill="#101010"/>
+  <rect x="70" y="70" width="620" height="760" fill="#ffffff"/>
+  <circle cx="368" cy="190" r="78" fill="#101010"/>
+  <path d="M216 311c82-64 183-76 302-36 42 125 65 267 69 428H154c12-159 33-290 62-392z" fill="#0057ff"/>
+  <rect x="300" y="303" width="122" height="404" fill="#101010"/>
+  <rect x="455" y="387" width="90" height="160" fill="#c9ced6"/>
+  <rect x="128" y="118" width="118" height="14" fill="#ffd400"/>
+</svg>

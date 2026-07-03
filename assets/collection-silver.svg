@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 860" role="img" aria-labelledby="title desc">
+  <title id="title">Silver Heat collection</title>
+  <desc id="desc">Metallic silver fashion garment with yellow and red accents.</desc>
+  <rect width="700" height="860" fill="#101010"/>
+  <path d="M92 86h516v688H92z" fill="#ffffff"/>
+  <circle cx="350" cy="184" r="88" fill="#191817"/>
+  <path d="M254 281c70-30 139-30 209 2 51 130 87 290 107 481H141c25-195 63-356 113-483z" fill="#c9ced6"/>
+  <path d="M296 292c-8 141-34 299-77 472h78c37-171 59-326 67-466z" fill="#ffffff"/>
+  <path d="M395 298c35 149 78 304 129 466h81c-58-177-113-336-165-477z" fill="#929596"/>
+  <path d="M125 290l101 79-67 251-95-49z" fill="#ffd400"/>
+  <path d="M519 294l91 66 45 205-81 48z" fill="#d71920"/>
+  <text x="113" y="820" fill="#ffffff" font-family="Arial, sans-serif" font-size="28" font-weight="800" letter-spacing="7">SILVER HEAT</text>
+</svg>

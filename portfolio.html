@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Marrolo portfolio — fashion runways and singer collaborations from Vancouver.">
+    <meta name="theme-color" content="#101010">
+    <title>Portfolio | Marrolo</title>
+    <script>
+      (function(){var t=localStorage.getItem("marrolo-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t);})();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip.link">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand-mark" href="index.html" aria-label="Marrolo home">
+        <img class="logo-day" src="assets/marrolo_logo_day.svg" alt="Marrolo">
+        <img class="logo-night" src="assets/marrolo_logo_night.svg" alt="Marrolo">
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html#collections" data-i18n="nav.collections">Collections</a>
+        <a href="index.html#about" data-i18n="nav.designer">Designer</a>
+        <a href="index.html#lookbook" data-i18n="nav.lookbook">Lookbook</a>
+        <a href="index.html#merch" data-i18n="nav.merch">Merch</a>
+        <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+      <button class="lang-toggle" type="button" aria-label="Switch to Spanish" data-lang-toggle>
+        <span class="lang-opt is-active" data-lang="en">EN</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-opt" data-lang="es">ES</span>
+      </button>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <img class="logo-day" src="assets/happyMarrolo.png" alt="Happy Marrolo">
+      <img class="logo-night" src="assets/happyMarrolo.png" alt="Happy Marrolo">
+    </header>
+
+    <div class="portfolio-layout" data-svg-follower>
+
+      <!-- Left sidebar navigation -->
+      <aside class="portfolio-sidebar">
+        <p class="sidebar-eyebrow" data-i18n="portfolio.sidebar.eyebrow">Portfolio</p>
+        <nav class="sidebar-nav" aria-label="Portfolio sections">
+          <a class="sidebar-link" href="#im-ok-runway" data-i18n="portfolio.link.1">I'm OK Runway</a>
+          <a class="sidebar-link" href="#ready-to-love" data-i18n="portfolio.link.2">Ready to Love</a>
+          <a class="sidebar-link" href="#singer-collabs" data-i18n="portfolio.link.3">Singer Collabs</a>
+          <a class="sidebar-link" href="#vancouver-runway" data-i18n="portfolio.link.4">Vancity Runway</a>
+        </nav>
+      </aside>
+
+      <!-- Main portfolio content -->
+      <main class="portfolio-main" id="main">
+
+        <!-- Page header -->
+        <div class="portfolio-hero">
+          <p class="eyebrow" data-i18n="portfolio.hero.eyebrow">Creative portfolio</p>
+          <h1 data-i18n="portfolio.hero.h1">From the Studio</h1>
+        </div>
+
+        <!-- ── Section 1: I'm OK Fashion Runway ───────────── -->
+        <section class="portfolio-section" id="im-ok-runway" aria-labelledby="imok-title">
+          <div class="portfolio-section-header">
+            <p class="eyebrow" data-i18n="portfolio.s1.eyebrow">Fashion Runway</p>
+            <h2 id="imok-title">I'm OK</h2>
+          </div>
+          <div class="carousel" data-carousel>
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-22.jpeg" alt="I'm OK runway — look 1">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-25.jpeg" alt="I'm OK runway — look 2">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-31.jpeg" alt="I'm OK runway — look 3">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-34.jpeg" alt="I'm OK runway — look 4">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-43.jpeg" alt="I'm OK runway — look 5">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-46.jpeg" alt="I'm OK runway — look 6">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-55.jpeg" alt="I'm OK runway — look 7">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-77.jpeg" alt="I'm OK runway — look 8">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-91.jpeg" alt="I'm OK runway — look 9">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-93.jpeg" alt="I'm OK runway — look 10">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-115.jpeg" alt="I'm OK runway — look 11">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-141.jpeg" alt="I'm OK runway — look 12">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-145.jpeg" alt="I'm OK runway — look 13">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-148.jpeg" alt="I'm OK runway — look 14">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-188.jpeg" alt="I'm OK runway — look 15">
+                  <img src="assets/portfolio/imOkFashionRunway/oramas_Runtherunway-198.jpeg" alt="I'm OK runway — look 16">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/IMG_3048.JPG" alt="I'm OK runway — backstage 1">
+                  <img src="assets/portfolio/imOkFashionRunway/IMG_3051.JPG" alt="I'm OK runway — backstage 2">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/imOkFashionRunway/IMG_3053.JPG" alt="I'm OK runway — backstage 3">
+                  <img src="assets/portfolio/imOkFashionRunway/IMG_3056.JPG" alt="I'm OK runway — backstage 4">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn carousel-prev" aria-label="Previous slide">← Prev</button>
+              <span class="carousel-count"></span>
+              <button class="carousel-btn carousel-next" aria-label="Next slide">Next →</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── Section 2: Ready to Love Fashion Runway ────── -->
+        <section class="portfolio-section" id="ready-to-love" aria-labelledby="rtl-title">
+          <div class="portfolio-section-header">
+            <p class="eyebrow" data-i18n="portfolio.s2.eyebrow">Fashion Runway</p>
+            <h2 id="rtl-title">Ready to Love</h2>
+          </div>
+          <div class="carousel" data-carousel>
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_4569.JPG" alt="Ready to Love runway — look 1">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_4571.JPG" alt="Ready to Love runway — look 2">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_4572.JPG" alt="Ready to Love runway — look 3">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_4573.JPG" alt="Ready to Love runway — look 4">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_4574.JPG" alt="Ready to Love runway — look 5">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_4575.JPG" alt="Ready to Love runway — look 6">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_4590.JPG" alt="Ready to Love runway — look 7">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_4591.JPG" alt="Ready to Love runway — look 8">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_4592.JPG" alt="Ready to Love runway — look 9">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6655.JPG" alt="Ready to Love runway — look 10">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6656.JPG" alt="Ready to Love runway — look 11">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6657.JPG" alt="Ready to Love runway — look 12">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6658.JPG" alt="Ready to Love runway — look 13">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6659.JPG" alt="Ready to Love runway — look 14">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6660.JPG" alt="Ready to Love runway — look 15">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6661.JPG" alt="Ready to Love runway — look 16">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6662.JPG" alt="Ready to Love runway — look 17">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6663.JPG" alt="Ready to Love runway — look 18">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6664.JPG" alt="Ready to Love runway — look 19">
+                  <img src="assets/portfolio/readyToLoveFashionRunway/IMG_6665.JPG" alt="Ready to Love runway — look 20">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn carousel-prev" aria-label="Previous slide">← Prev</button>
+              <span class="carousel-count"></span>
+              <button class="carousel-btn carousel-next" aria-label="Next slide">Next →</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── Section 3: Singer Collaborations ───────────── -->
+        <section class="portfolio-section" id="singer-collabs" aria-labelledby="singers-title">
+          <div class="portfolio-section-header">
+            <p class="eyebrow" data-i18n="portfolio.s3.eyebrow">Collaborations</p>
+            <h2 id="singers-title" data-i18n="portfolio.s3.heading">Singer Collabs</h2>
+          </div>
+          <div class="carousel" data-carousel>
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/IMG_4983.JPG" alt="Singer collaboration — 1">
+                  <img src="assets/portfolio/singersColabs/IMG_4984.JPG" alt="Singer collaboration — 2">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/IMG_4986.JPG" alt="Singer collaboration — 3">
+                  <img src="assets/portfolio/singersColabs/IMG_4987.JPG" alt="Singer collaboration — 4">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/IMG_4988.JPG" alt="Singer collaboration — 5">
+                  <img src="assets/portfolio/singersColabs/IMG_4989.JPG" alt="Singer collaboration — 6">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/IMG_5005.JPG" alt="Singer collaboration — 7">
+                  <img src="assets/portfolio/singersColabs/IMG_5006.JPG" alt="Singer collaboration — 8">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/IMG_5007.JPG" alt="Singer collaboration — 9">
+                  <img src="assets/portfolio/singersColabs/IMG_5008.JPG" alt="Singer collaboration — 10">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/IMG_5010.JPG" alt="Singer collaboration — 11">
+                  <img src="assets/portfolio/singersColabs/IMG_5011.JPG" alt="Singer collaboration — 12">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/IMG_5012.JPG" alt="Singer collaboration — 13">
+                  <img src="assets/portfolio/singersColabs/IMG_5972.JPG" alt="Singer collaboration — 14">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/IMG_5973.JPG" alt="Singer collaboration — 15">
+                  <img src="assets/portfolio/singersColabs/IMG_5974.JPG" alt="Singer collaboration — 16">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/0A73A99E-F5BC-4942-9491-49030B3F128B.jpg" alt="Singer collaboration — 17">
+                  <img src="assets/portfolio/singersColabs/30172817-AA31-40CB-9A26-8E1CA4B0EB39.jpg" alt="Singer collaboration — 18">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/singersColabs/811F3642-125F-428F-AF08-56BD6B717862.jpg" alt="Singer collaboration — 19">
+                  <img src="assets/portfolio/singersColabs/RNI-Films-IMG-AEC9CB4B-CC3C-42D8-A0AE-EAB533ECE565.JPG" alt="Singer collaboration — 20">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn carousel-prev" aria-label="Previous slide">← Prev</button>
+              <span class="carousel-count"></span>
+              <button class="carousel-btn carousel-next" aria-label="Next slide">Next →</button>
+            </div>
+          </div>
+        </section>
+
+        <!-- ── Section 4: Vancouver Runway───────────── -->
+        <section class="portfolio-section" id="vancouver-runway" aria-labelledby="vancouver-title">
+          <div class="portfolio-section-header">
+            <p class="eyebrow" data-i18n="portfolio.s4.eyebrow">Vancouver Runway</p>
+            <h2 id="vancouver-title" data-i18n="portfolio.s4.heading">Vancouver Runway</h2>
+          </div>
+          <div class="carousel" data-carousel>
+            <div class="carousel-viewport">
+              <div class="carousel-track">
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr01.JPG" alt="Vancouver runway — look 1">
+                  <img src="assets/portfolio/vancityRunaway/vr02.JPG" alt="Vancouver runway — look 2">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr03.JPG" alt="Vancouver runway — look 3">
+                  <img src="assets/portfolio/vancityRunaway/vr04.JPG" alt="Vancouver runway — look 4">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr05.JPG" alt="Vancouver runway — look 5">
+                  <img src="assets/portfolio/vancityRunaway/vr06.JPG" alt="Vancouver runway — look 6">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr07.JPG" alt="Vancouver runway — look 7">
+                  <img src="assets/portfolio/vancityRunaway/vr08.JPG" alt="Vancouver runway — look 8">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr09.JPG" alt="Vancouver runway — look 9">
+                  <img src="assets/portfolio/vancityRunaway/vr10.JPG" alt="Vancouver runway — look 10">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr11.JPG" alt="Vancouver runway — look 11">
+                  <img src="assets/portfolio/vancityRunaway/vr12.JPG" alt="Vancouver runway — look 12">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr13.JPG" alt="Vancouver runway — look 13">
+                  <img src="assets/portfolio/vancityRunaway/vr14.JPG" alt="Vancouver runway — look 14">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr15.JPG" alt="Vancouver runway — look 15">
+                  <img src="assets/portfolio/vancityRunaway/vr16.JPG" alt="Vancouver runway — look 16">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr17.JPG" alt="Vancouver runway — look 17">
+                  <img src="assets/portfolio/vancityRunaway/vr18.JPG" alt="Vancouver runway — look 18">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr19.JPG" alt="Vancouver runway — look 19">
+                  <img src="assets/portfolio/vancityRunaway/vr20.JPG" alt="Vancouver runway — look 20">
+                </div>
+                <div class="carousel-slide">
+                  <img src="assets/portfolio/vancityRunaway/vr21.JPG" alt="Vancouver runway — look 21">
+                  <img src="assets/portfolio/vancityRunaway/vr22.JPG" alt="Vancouver runway — look 22">
+                </div>
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <button class="carousel-btn carousel-prev" aria-label="Previous slide">← Prev</button>
+              <span class="carousel-count"></span>
+              <button class="carousel-btn carousel-next" aria-label="Next slide">Next →</button>
+            </div>
+          </div>
+        </section>
+
+      </main>
+    </div>
+
+    <footer class="site-footer">
+      <span>Marrolo</span>
+      <span data-i18n="footer.tagline">Contemporary fashion design</span>
+      <span>© 2026</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

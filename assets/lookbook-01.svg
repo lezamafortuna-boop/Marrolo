@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Shadow Coat lookbook</title>
+  <desc id="desc">Black coat with red fashion accent in an editorial layout.</desc>
+  <rect width="760" height="1000" fill="#f2f3f5"/>
+  <rect x="98" y="70" width="564" height="830" fill="#101010"/>
+  <circle cx="380" cy="184" r="82" fill="#ffffff"/>
+  <path d="M250 301c84-63 172-63 264 1 54 158 83 338 86 540H161c11-202 40-383 89-541z" fill="#1f1d1c"/>
+  <path d="M327 310h86l36 530h-73z" fill="#d71920"/>
+  <path d="M120 908h520v18H120z" fill="#ffd400"/>
+</svg>

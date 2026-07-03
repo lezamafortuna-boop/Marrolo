@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 860" role="img" aria-labelledby="title desc">
+  <title id="title">Blueprint Motion collection</title>
+  <desc id="desc">Electric blue modular streetwear fashion illustration.</desc>
+  <rect width="700" height="860" fill="#f2f3f5"/>
+  <path d="M0 0h700v860H0z" fill="#e8ebf2"/>
+  <path d="M84 76h532v708H84z" fill="#ffffff"/>
+  <path d="M166 610h368v174H166z" fill="#101010"/>
+  <circle cx="350" cy="187" r="84" fill="#101010"/>
+  <path d="M212 300c74-61 168-78 282-51 54 131 82 284 84 459H125c15-173 44-309 87-408z" fill="#0057ff"/>
+  <path d="M302 274h94v431h-94z" fill="#101010"/>
+  <path d="M166 363h143v84H166z" fill="#c9ced6"/>
+  <path d="M405 336h154v92H405z" fill="#101010"/>
+  <path d="M452 454h112v167H452z" fill="#c9ced6"/>
+  <path d="M114 111h132v10H114zm0 31h220v10H114zm0 31h88v10h-88z" fill="#0057ff"/>
+  <path d="M476 110h72v72h-72z" fill="#ffd400"/>
+</svg>

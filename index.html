@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Marrolo is a contemporary fashion portfolio and clothing design brand built around original garments, expressive visuals, and modern editorial culture.">
+    <meta name="theme-color" content="#101010">
+    <title>Marrolo | Contemporary Fashion Design</title>
+    <script>
+      (function(){var t=localStorage.getItem("marrolo-theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");document.documentElement.setAttribute("data-theme",t);})();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="skip.link">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <a class="brand-mark" href="#top" aria-label="Marrolo home">
+        <img class="logo-day" src="assets/marroloLogoBlack.png" alt="Marrolo">
+        <img class="logo-night" src="assets/marroloLogoWhite.png" alt="Marrolo">
+      </a>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#collections" data-i18n="nav.collections">Collections</a>
+        <a href="#about" data-i18n="nav.designer">Designer</a>
+        <a href="#lookbook" data-i18n="nav.lookbook">Lookbook</a>
+        <a href="#merch" data-i18n="nav.merch">Merch</a>
+        <a href="portfolio.html" data-i18n="nav.portfolio">Portfolio</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" type="button" aria-label="Toggle dark mode" data-theme-toggle>
+        <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+        </svg>
+        <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+      <button class="lang-toggle" type="button" aria-label="Switch to Spanish" data-lang-toggle>
+        <span class="lang-opt is-active" data-lang="en">EN</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-opt" data-lang="es">ES</span>
+      </button>
+      <button class="menu-toggle" type="button" aria-label="Open menu" aria-expanded="false" data-menu-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <img class="logo-day" src="assets/happyMarrolo.png" alt="Happy Marrolo">
+      <img class="logo-night" src="assets/happyMarrolo.png" alt="Happy Marrolo">
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img src="assets/marrolo-hero.JPG" alt="">
+        </div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Original clothing design / visual identity</p>
+          <div class="hero-title-group">
+            <img class="hero-logo logo-day" src="assets/marroloLogoBlack.png" alt="" aria-hidden="true">
+            <img class="hero-logo logo-night" src="assets/marroloLogoWhite.png" alt="" aria-hidden="true">
+          </div>
+          <p class="hero-kicker" data-i18n="hero.kicker">Contemporary fashion for people who dress with confidence, motion, and artistic intent.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#collections" data-i18n="hero.cta.primary">Explore the Collection</a>
+            <a class="button button-secondary" href="#about" data-i18n="hero.cta.secondary">Our Story</a>
+          </div>
+        </div>
+        <div class="ticker" aria-label="Brand values">
+          <span data-i18n="ticker.1">Made in Vancouver</span>
+          <span data-i18n="ticker.2">Street-luxury energy</span>
+          <span data-i18n="ticker.3">Amor por el Proceso</span>
+          <span data-i18n="ticker.4">Crafted on demand</span>
+        </div>
+      </section>
+
+      <section class="intro-band" aria-label="Brand statement" data-bouncing-balls>
+        <p class="statement reveal" data-i18n="intro.statement">Marrolo builds clothes as visual statements — sharp enough for the editorial page, alive enough for the street — each piece crafted on demand from Vancouver.</p>
+      </section>
+
+      <section class="section collections" id="collections" aria-labelledby="collections-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="collections.eyebrow">Featured collections</p>
+          <h2 id="collections-title" data-i18n="collections.heading">Bold silhouettes, clean discipline.</h2>
+        </div>
+        <div class="collection-grid">
+          <article class="collection-card reveal">
+            <div class="collection-carousel" data-carousel>
+              <div class="carousel-viewport">
+                <div class="carousel-track">
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-0.JPEG" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-1.jpg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-2.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-3.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-4.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-5.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-6.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-7.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-8.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-9.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-10.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-11.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-12.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-13.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-14.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-15.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-16.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-17.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-18.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-19.jpeg" alt="No Time 4 Love collection"></div>
+                  <div class="carousel-slide"><img src="assets/noTimeForLoveCollection/nt4l-20.jpeg" alt="No Time 4 Love collection"></div>
+                </div>
+              </div>
+              <div class="carousel-controls collection-carousel-controls">
+                <button class="carousel-btn carousel-prev" aria-label="Previous look">←</button>
+                <button class="carousel-btn carousel-next" aria-label="Next look">→</button>
+              </div>
+            </div>
+            <div>
+              <p class="collection-index">01</p>
+              <h3>No Time 4 Love</h3>
+              <p data-i18n="collection.01.desc">Bold statement pieces for those who move on their own terms — raw finishes and sharp silhouettes built around urgency and edge.</p>
+            </div>
+          </article>
+          <article class="collection-card reveal">
+            <img src="assets/collection-blueprint.svg" alt="Editorial illustration of electric blue modular streetwear pieces and silver detailing.">
+            <div>
+              <p class="collection-index">02</p>
+              <h3>Blueprint Motion</h3>
+              <p data-i18n="collection.02.desc">Technical streetwear with electric blue notes, utility rhythm, and soft architectural volume.</p>
+            </div>
+          </article>
+          <article class="collection-card reveal">
+            <img src="assets/collection-silver.svg" alt="Editorial illustration of metallic silver eveningwear with yellow-gold styling accents.">
+            <div>
+              <p class="collection-index">03</p>
+              <h3>Silver Heat</h3>
+          <p data-i18n="collection.03.desc">Reflective evening pieces, asymmetric cuts, and luminous yellow-gold details for high-contrast styling.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title" data-svg-follower>
+        <div class="about-image reveal">
+          <div class="designer-stack">
+            <div class="designer-stack-inner">
+              <img class="designer-stack-img" src="assets/designerStory/IMG_0686.JPG" alt="Behind the studio">
+              <img class="designer-stack-img" src="assets/designerStory/IMG_6328.JPG" alt="Designer at work">
+              <img class="designer-stack-img" src="assets/designerStory/IMG_8418.jpg" alt="Creative process">
+            </div>
+            <div class="designer-stack-arrows">
+              <button class="carousel-btn designer-stack-prev" aria-label="Previous photo">←</button>
+              <button class="carousel-btn designer-stack-next" aria-label="Next photo">→</button>
+            </div>
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <p class="eyebrow" data-i18n="about.eyebrow">Designer story</p>
+          <h2 id="about-title" data-i18n="about.heading">A studio language built on love.</h2>
+          <p data-i18n="about.p1">Marrolo started as a school project and quickly became my creative world.</p>
+          <p data-i18n="about.p2">What began as a place to share my designs and build a portfolio turned into something much bigger when people started connecting with my work. Through fashion, I found a way to express emotions, tell stories, and create pieces that make people feel confident and seen.</p>
+          <p data-i18n="about.p3">As Marrolo grew, I expanded from one-of-one designs into collections and merchandise, collaborating with magazines, artists, musicians, DJs, singers, and creatives who wanted something unique for their performances, projects, and everyday style.</p>
+          <p data-i18n="about.p4">Today, Marrolo moves between Mexico and Canada, blending designer fashion with street culture through seasonal collections, custom pieces, and limited-edition merch. Every collection reflects a different feeling, moment, or idea, while staying true to the brand's core: self-expression, creativity, and individuality.</p>
+          <p data-i18n="about.p5">For me, Marrolo has never been just about clothing. It's about creating pieces that people can make their own and building a community that isn't afraid to stand out.</p>
+          <p class="about-closing" data-i18n="about.p6">And we're just getting started.</p>
+          <a class="text-link" href="#lookbook" data-i18n="about.link">Explore the visual direction</a>
+        </div>
+      </section>
+
+      <section class="amores-section section" aria-labelledby="amores-title" data-svg-follower>
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="amores.eyebrow">Marrolo Lovers</p>
+          <h2 id="amores-title" data-i18n="amores.heading">Made with and for love.</h2>
+        </div>
+        <div class="amores-carousel reveal" data-carousel>
+          <div class="carousel-viewport">
+            <div class="carousel-track">
+              <div class="carousel-slide amores-slide">
+                <img src="assets/marroloLovers/082EB74D-C274-4108-8B80-61E0E63EA54A.JPEG" alt="Marrolo lover — 1">
+              </div>
+              <div class="carousel-slide amores-slide">
+                <img src="assets/marroloLovers/47102639-3292-48da-99a3-e774ecc9a05a.JPEG" alt="Marrolo lover — 2">
+              </div>
+              <div class="carousel-slide amores-slide">
+                <img src="assets/marroloLovers/AF4F0432-AC4A-42E0-9617-7348A45B3C66.JPEG" alt="Marrolo lover — 3">
+              </div>
+              <div class="carousel-slide amores-slide">
+                <img src="assets/marroloLovers/IMG_2457.JPEG" alt="Marrolo lover — 4">
+              </div>
+              <div class="carousel-slide amores-slide">
+                <img src="assets/marroloLovers/IMG_7088.JPEG" alt="Marrolo lover — 5">
+              </div>
+               <div class="carousel-slide amores-slide">
+                <img src="assets/marroloLovers/luisMarrolo.jpg" alt="Marrolo lover — 5">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-btn carousel-prev" aria-label="Previous">← Prev</button>
+            <span class="carousel-count"></span>
+            <button class="carousel-btn carousel-next" aria-label="Next">Next →</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="philosophy" aria-labelledby="philosophy-title">
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="philosophy.eyebrow">The Amores</p>
+          <h2 id="philosophy-title" data-i18n="philosophy.heading">Love is our design language.</h2>
+        </div>
+        <div class="principles">
+          <div class="principle reveal">
+            <span>01</span>
+            <h3>Amor por la Creatividad</h3>
+            <p data-i18n="principle.01.desc">Each garment is a unique expression of identity, made with intention.</p>
+          </div>
+          <div class="principle reveal">
+            <span>02</span>
+            <h3>Amor por la Comunidad</h3>
+            <p data-i18n="principle.02.desc">A space for urban style, self-expression, and collective energy.</p>
+          </div>
+          <div class="principle reveal">
+            <span>03</span>
+            <h3>Amor por el Planeta</h3>
+            <p data-i18n="principle.03.desc">Every piece is crafted on demand to minimize waste and maximize care.</p>
+          </div>
+          <div class="principle reveal">
+            <span>04</span>
+            <h3>Amor por la Diversidad</h3>
+            <p data-i18n="principle.04.desc">Inclusion and representation at the heart of every collection.</p>
+          </div>
+          <div class="principle reveal">
+            <span>05</span>
+            <h3>Amor por el Proceso</h3>
+            <p data-i18n="principle.05.desc">Dedication in every step: from design sketch to final delivery.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="lookbook section" id="lookbook" aria-labelledby="lookbook-title" data-svg-follower>
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="lookbook.eyebrow">Lookbook</p>
+          <h2 id="lookbook-title" data-i18n="lookbook.heading">Visuals with pace, space, and attitude.</h2>
+        </div>
+        <div class="lookbook-grid">
+          <figure class="look-item tall reveal">
+            <img src="assets/lookbook-01.svg" alt="Fashion lookbook composition with a black coat and red sculptural accent.">
+            <figcaption data-i18n="look.01.caption">Shadow Coat / Red Signal</figcaption>
+          </figure>
+          <figure class="look-item reveal">
+            <img src="assets/lookbook-02.svg" alt="Fashion lookbook composition with electric blue tailoring and metallic accessories.">
+            <figcaption data-i18n="look.02.caption">Blue Form / Utility Line</figcaption>
+          </figure>
+          <figure class="look-item reveal">
+            <img src="assets/lookbook-03.svg" alt="Fashion lookbook composition with silver fabric, yellow-gold detail, and editorial layout marks.">
+            <figcaption data-i18n="look.03.caption">Chrome Drape / Heat Mark</figcaption>
+          </figure>
+          <figure class="look-item wide reveal">
+            <img src="assets/lookbook-04.svg" alt="Wide editorial fashion composition with multiple Marrolo silhouettes in neutral space.">
+            <figcaption data-i18n="look.04.caption">Studio Set / Marrolo Forms</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="store-callout" aria-labelledby="store-title">
+        <div class="reveal">
+          <p class="eyebrow" data-i18n="store.eyebrow">On-demand production</p>
+          <h2 id="store-title" data-i18n="store.heading">Each Marrolo piece is created uniquely for you.</h2>
+        </div>
+        <a class="button button-secondary reveal" href="#contact" data-i18n="store.cta">Join the list</a>
+      </section>
+
+      <section class="merch section" id="merch" aria-labelledby="merch-title" data-svg-follower>
+        <div class="section-heading reveal">
+          <p class="eyebrow" data-i18n="merch.eyebrow">Merchandise</p>
+          <h2 id="merch-title" data-i18n="merch.heading">Wear Marrolo.</h2>
+        </div>
+        <div class="merch-carousel reveal" data-carousel>
+          <div class="carousel-viewport">
+            <div class="carousel-track">
+              <div class="carousel-slide">
+                <img src="assets/merch/merch1.JPG" alt="Marrolo merch">
+                <img src="assets/merch/merch2.JPG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch3.JPG" alt="Marrolo merch">
+                <img src="assets/merch/merch4.JPG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch5.JPG" alt="Marrolo merch">
+                <img src="assets/merch/merch6.JPG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch7.JPG" alt="Marrolo merch">
+                <img src="assets/merch/merch8.JPG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch9.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch10.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch11.jpg" alt="Marrolo merch">
+                <img src="assets/merch/merch12.jpg" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch13.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch14.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch15.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch16.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch17.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch18.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch19.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch20.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch21.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch22.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch23.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch24.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch25.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch26.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch27.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch28.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch29.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch30.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch31.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch32.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch33.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch34.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch35.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch36.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch37.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch38.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch39.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch40.JPEG" alt="Marrolo merch">
+              </div>
+              <div class="carousel-slide">
+                <img src="assets/merch/merch41.JPEG" alt="Marrolo merch">
+                <img src="assets/merch/merch42.JPEG" alt="Marrolo merch">
+              </div>
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button class="carousel-btn carousel-prev" aria-label="Previous">← Prev</button>
+            <span class="carousel-count"></span>
+            <button class="carousel-btn carousel-next" aria-label="Next">Next →</button>
+          </div>
+        </div>
+        <div class="merch-thumbnails reveal">
+          <img src="assets/merch/merch1.JPG" alt="Marrolo merch piece">
+          <img src="assets/merch/merch30.JPEG" alt="Marrolo merch piece">
+          <img src="assets/merch/merch2.JPG" alt="Marrolo merch piece">
+          <img src="assets/merch/merch32.JPEG" alt="Marrolo merch piece">
+          <img src="assets/merch/merch7.JPG" alt="Marrolo merch piece">
+          <img src="assets/merch/merch34.JPEG" alt="Marrolo merch piece">
+        </div>
+        <div class="merch-cta reveal">
+          <a class="button button-primary" href="#contact" data-i18n="merch.cta">Request a Piece</a>
+        </div>
+      </section>
+
+      <section class="contact" id="contact" aria-labelledby="contact-title" data-bouncing-balls>
+        <div class="contact-copy reveal">
+          <p class="eyebrow" data-i18n="contact.eyebrow">Contact / social</p>
+          <h2 id="contact-title" data-i18n="contact.heading">Bring the next Marrolo piece into focus.</h2>
+          <p data-i18n="contact.desc">For styling requests, collection previews, editorial pulls, and collaboration inquiries.</p>
+        </div>
+        <div class="contact-panel reveal">
+          <a href="mailto:marrolo.can@gmail.com">marrolo.can@gmail.com</a>
+          <a href="https://www.instagram.com/" rel="noreferrer">Instagram</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="https://www.tiktok.com/" rel="noreferrer">TikTok</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Marrolo</span>
+      <span data-i18n="footer.tagline">Contemporary fashion design</span>
+      <span>© 2026</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

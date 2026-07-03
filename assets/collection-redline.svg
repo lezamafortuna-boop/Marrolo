@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 860" role="img" aria-labelledby="title desc">
+  <title id="title">Redline Atelier collection</title>
+  <desc id="desc">Structured red and black fashion garment illustration.</desc>
+  <rect width="700" height="860" fill="#ffffff"/>
+  <rect x="42" y="42" width="616" height="776" fill="#101010"/>
+  <path d="M350 112c61 0 110 50 110 111 0 60-49 109-110 109s-110-49-110-109c0-61 49-111 110-111z" fill="#ffffff"/>
+  <path d="M218 326c80-54 172-56 266-4 52 141 79 299 80 474H137c9-169 36-326 81-470z" fill="#1b1918"/>
+  <path d="M301 329h93l30 466h-77z" fill="#d71920"/>
+  <path d="M215 353c-47 101-76 248-86 442H58c13-193 52-345 117-456z" fill="#ffd400"/>
+  <path d="M487 343c66 114 105 266 117 452h-75c-9-186-39-334-90-444z" fill="#272423"/>
+  <path d="M196 795h329v23H196z" fill="#c9a227"/>
+</svg>
