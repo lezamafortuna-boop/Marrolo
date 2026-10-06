@@ -51,6 +51,11 @@ const translations = {
     'store.cta': 'Join the list',
     'merch.eyebrow': 'Merchandise',
     'merch.heading': 'Wear Marrolo.',
+    'merch.note': 'Small-run energy. Made to order in Vancouver.',
+    'merch.category': 'Limited merchandise',
+    'merch.product': 'Marrolo merch look',
+    'merch.made': 'Made to order',
+    'merch.footer': 'Every piece is made on demand to minimize waste.',
     'merch.cta': 'Request a Piece',
     'contact.eyebrow': 'Contact / social',
     'contact.heading': 'Bring the next Marrolo piece into focus.',
@@ -125,6 +130,11 @@ const translations = {
     'store.cta': 'Únete a la lista',
     'merch.eyebrow': 'Mercancía',
     'merch.heading': 'Viste Marrolo.',
+    'merch.note': 'Energía de edición limitada. Hecho a pedido en Vancouver.',
+    'merch.category': 'Mercancía de edición limitada',
+    'merch.product': 'Estilo Marrolo',
+    'merch.made': 'Hecho a pedido',
+    'merch.footer': 'Cada pieza se produce a pedido para minimizar residuos.',
     'merch.cta': 'Solicitar una Pieza',
     'contact.eyebrow': 'Contacto / redes',
     'contact.heading': 'Pon el próximo Marrolo en el centro de atención.',
@@ -272,6 +282,93 @@ document.querySelectorAll("[data-carousel]").forEach((carousel) => {
   update();
   startTimer();
 });
+
+// ── Randomized merch carousel ─────────────────────────
+const merchImages = [
+  "merch1.JPG", "merch2.JPG", "merch3.JPG", "merch4.JPG", "merch5.JPG",
+  "merch6.JPG", "merch7.JPG", "merch8.JPG", "merch9.PNG", "merch10.PNG",
+  "merch11.PNG", "merch12.PNG", "merch13.JPG", "merch14.JPG", "merch15.PNG",
+  "merch16.PNG", "merch17.JPG", "merch18.PNG", "merch19.PNG", "merch20.PNG",
+  "merch21.PNG", "merch22.PNG", "merch23.PNG", "merch24.PNG", "merch25.PNG",
+  "merch26.JPG", "merch27.JPG",
+].map((file) => `assets/merch/${file}`);
+
+const merchGrid = document.querySelector("[data-merch-grid]");
+const merchCarousel = document.querySelector("[data-merch-carousel]");
+
+if (merchGrid && merchCarousel) {
+  const merchCount = merchCarousel.querySelector("[data-merch-count]");
+  const merchPrev = merchCarousel.querySelector("[data-merch-prev]");
+  const merchNext = merchCarousel.querySelector("[data-merch-next]");
+  const itemsPerPage = 3;
+  const shuffledImages = [...merchImages].sort(() => Math.random() - 0.5);
+  const pageCount = Math.ceil(shuffledImages.length / itemsPerPage);
+  let page = 0;
+
+  const renderMerchPage = () => {
+    merchGrid.replaceChildren();
+
+    shuffledImages
+      .slice(page * itemsPerPage, (page + 1) * itemsPerPage)
+      .forEach((imagePath, slot) => {
+        const imageNumber = page * itemsPerPage + slot + 1;
+        const card = document.createElement("article");
+        card.className = "merch-card is-visible";
+
+        const imageLink = document.createElement("a");
+        imageLink.className = "merch-image";
+        imageLink.href = "#contact";
+        imageLink.setAttribute("aria-label", `${t("merch.product")} ${imageNumber}`);
+
+        const indexLabel = document.createElement("span");
+        indexLabel.className = "merch-image-index";
+        indexLabel.textContent = `${String(imageNumber).padStart(2, "0")} / ${shuffledImages.length}`;
+
+        const image = document.createElement("img");
+        image.src = imagePath;
+        image.alt = `${t("merch.product")} ${imageNumber}`;
+        image.loading = "lazy";
+        image.decoding = "async";
+
+        const arrow = document.createElement("span");
+        arrow.className = "merch-image-arrow";
+        arrow.setAttribute("aria-hidden", "true");
+        arrow.textContent = "↗";
+        imageLink.append(indexLabel, image, arrow);
+
+        const meta = document.createElement("div");
+        meta.className = "merch-product-meta";
+        const details = document.createElement("div");
+        const category = document.createElement("p");
+        category.className = "merch-category";
+        category.textContent = t("merch.category");
+        const title = document.createElement("h3");
+        title.textContent = t("merch.product");
+        details.append(category, title);
+
+        const madeToOrder = document.createElement("span");
+        madeToOrder.className = "merch-made";
+        madeToOrder.textContent = t("merch.made");
+        meta.append(details, madeToOrder);
+        card.append(imageLink, meta);
+        merchGrid.append(card);
+      });
+
+    merchCount.textContent = `${page + 1} / ${pageCount}`;
+  };
+
+  merchPrev.addEventListener("click", () => {
+    page = (page - 1 + pageCount) % pageCount;
+    renderMerchPage();
+  });
+  merchNext.addEventListener("click", () => {
+    page = (page + 1) % pageCount;
+    renderMerchPage();
+  });
+  langToggle?.addEventListener("click", renderMerchPage);
+
+  renderMerchPage();
+}
 
 // ── Portfolio sidebar scrollspy ────────────────────────
 const sidebarLinks = document.querySelectorAll(".sidebar-link");
